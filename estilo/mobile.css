@@ -1,0 +1,6 @@
+@media screen and (max-width:450px){
+    .quadro{
+        flex: 0 0 100px;
+        height: 80px;
+    }
+}
