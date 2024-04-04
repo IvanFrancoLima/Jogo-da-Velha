@@ -46,7 +46,13 @@ function verificar(num,plays){
     }
     /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// ///
 
-    
+    if(vencedor == 2 || num == 9){
+        let tabuleiro = window.document.getElementById('container')
+        tabuleiro.style.display='none'
+
+        let jogar_denovo = window.document.getElementById('reset')
+        jogar_denovo.style.display='block'
+    }
 }
 
 function q0(){
